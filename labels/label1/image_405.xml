@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>ventilator88.jpg</filename>
+    <size>
+        <width>1200</width>
+        <height>1600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>ventilator</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>119</xmin>
+            <ymin>160</ymin>
+            <xmax>939</xmax>
+            <ymax>1600</ymax>
+        </bndbox>
+    </object>
+</annotation>

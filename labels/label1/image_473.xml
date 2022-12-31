@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>UPMC Children_s Hospital of Pittsburgh Tour 390.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>433</xmin>
+            <ymin>2</ymin>
+            <xmax>663</xmax>
+            <ymax>461</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>iv_pole</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>323</ymin>
+            <xmax>156</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>
