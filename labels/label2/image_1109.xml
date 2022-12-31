@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_1109.jpg</filename>
+    <size>
+        <width>700</width>
+        <height>700</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>sequential_compression</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>6.000000</xmin>
+            <ymin>336.520020</ymin>
+            <xmax>693.010010</xmax>
+            <ymax>700.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>patient</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>68.902855</xmin>
+            <ymin>5.992845</ymin>
+            <xmax>299.572845</xmax>
+            <ymax>442.368591</ymax>
+        </bndbox>
+    </object>
+</annotation>
