@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_1775.jpg</filename>
+    <size>
+        <width>612</width>
+        <height>408</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>308.496735</xmin>
+            <ymin>133.674011</ymin>
+            <xmax>359.000000</xmax>
+            <ymax>213.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>505.000000</xmin>
+            <ymin>257.000000</ymin>
+            <xmax>546.000000</xmax>
+            <ymax>275.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
