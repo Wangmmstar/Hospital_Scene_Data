@@ -47,7 +47,7 @@ The image folders contain the original jpeg files. The labels folers contains xm
 42. medical waste container
 43. toilet handle
 44. incubator
-45. surgcal instrument
+45. surgical instrument
 46. panda baby warmer
 47. elevator panel
 48. sequential compression
