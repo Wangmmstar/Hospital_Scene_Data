@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Beaumont Hospital Troy Birth Center Tour 42.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>619</xmin>
+            <ymin>167</ymin>
+            <xmax>977</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>table</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>293</ymin>
+            <xmax>302</xmax>
+            <ymax>718</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>sofa</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1051</xmin>
+            <ymin>401</ymin>
+            <xmax>1280</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>
