@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>New Hospital Tour 0815.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>utility_cart</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>882</xmin>
+            <ymin>409</ymin>
+            <xmax>1084</xmax>
+            <ymax>701</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>403</xmin>
+            <ymin>209</ymin>
+            <xmax>472</xmax>
+            <ymax>272</ymax>
+        </bndbox>
+    </object>
+</annotation>

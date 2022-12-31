@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_2218.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>938.000000</xmin>
+            <ymin>224.000000</ymin>
+            <xmax>1012.000000</xmax>
+            <ymax>292.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

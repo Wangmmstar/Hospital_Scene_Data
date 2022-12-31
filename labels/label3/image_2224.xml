@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>New Hospital Tour 0810.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1154</xmin>
+            <ymin>249</ymin>
+            <xmax>1238</xmax>
+            <ymax>318</ymax>
+        </bndbox>
+    </object>
+</annotation>
