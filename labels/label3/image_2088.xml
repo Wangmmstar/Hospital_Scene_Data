@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>New York Presbyterian Queens Emergency Medicine Residency - Virtual Tour 183.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>bedside_monitor</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>269</xmin>
+            <ymin>41</ymin>
+            <xmax>402</xmax>
+            <ymax>167</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>hospital_bed</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>444</ymin>
+            <xmax>930</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>iv_pole</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>212</xmin>
+            <ymin>276</ymin>
+            <xmax>245</xmax>
+            <ymax>477</ymax>
+        </bndbox>
+    </object>
+</annotation>

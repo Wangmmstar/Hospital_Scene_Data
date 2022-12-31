@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Open_lift_doors_iStock_000017211376_Medium.jpg</filename>
+    <size>
+        <width>1132</width>
+        <height>1260</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1011</xmin>
+            <ymin>765</ymin>
+            <xmax>1083</xmax>
+            <ymax>889</ymax>
+        </bndbox>
+    </object>
+</annotation>
