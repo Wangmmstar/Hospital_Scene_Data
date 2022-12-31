@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>stock-photo-asian-woman-sitting-on-a-wheelchair-looking-outside-the-window-in-a-hospital-patient-with-1332575150.jpg</filename>
+    <size>
+        <width>1500</width>
+        <height>1101</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>625</xmin>
+            <ymin>284</ymin>
+            <xmax>1453</xmax>
+            <ymax>973</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>patient</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>542</xmin>
+            <ymin>33</ymin>
+            <xmax>1342</xmax>
+            <ymax>864</ymax>
+        </bndbox>
+    </object>
+</annotation>
