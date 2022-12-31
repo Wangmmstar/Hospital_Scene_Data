@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>operating456.jpg</filename>
+    <size>
+        <width>602</width>
+        <height>612</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>operating_bed</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>67</xmin>
+            <ymin>380</ymin>
+            <xmax>498</xmax>
+            <ymax>612</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>surgical_light</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>184</xmin>
+            <ymin>132</ymin>
+            <xmax>368</xmax>
+            <ymax>261</ymax>
+        </bndbox>
+    </object>
+</annotation>
