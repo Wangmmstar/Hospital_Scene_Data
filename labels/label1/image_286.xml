@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Virtual Maternity Tour of UC San Diego Medical Center in Hillcrest 183.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>dispenser</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>553</xmin>
+            <ymin>348</ymin>
+            <xmax>566</xmax>
+            <ymax>371</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>push_latch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>951</xmin>
+            <ymin>426</ymin>
+            <xmax>1061</xmax>
+            <ymax>475</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>push_latch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>474</ymin>
+            <xmax>118</xmax>
+            <ymax>545</ymax>
+        </bndbox>
+    </object>
+</annotation>

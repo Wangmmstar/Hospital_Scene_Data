@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_259.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>137.000000</xmin>
+            <ymin>424.000000</ymin>
+            <xmax>405.000000</xmax>
+            <ymax>571.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>660.000000</xmin>
+            <ymin>316.000000</ymin>
+            <xmax>703.000000</xmax>
+            <ymax>484.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
