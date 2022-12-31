@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Geneva General Hospital Virtual Tour 2014 123.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1057</xmin>
+            <ymin>397</ymin>
+            <xmax>1085</xmax>
+            <ymax>420</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>706</xmin>
+            <ymin>254</ymin>
+            <xmax>712</xmax>
+            <ymax>273</ymax>
+        </bndbox>
+    </object>
+</annotation>
