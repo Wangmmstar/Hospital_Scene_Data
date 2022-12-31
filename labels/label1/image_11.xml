@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>X2Download.com-Your Visit to the Intensive Care Unit (ICU) 155.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>staff</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>237</xmin>
+            <ymin>229</ymin>
+            <xmax>491</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>

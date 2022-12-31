@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_68.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>iv_pole</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>938.267212</xmin>
+            <ymin>550.236145</ymin>
+            <xmax>1060.171875</xmax>
+            <ymax>720.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>staff</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1.000000</xmin>
+            <ymin>260.000000</ymin>
+            <xmax>736.000000</xmax>
+            <ymax>720.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>wheelchair-hospital-153764688.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>533</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>utility_cart</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>595</xmin>
+            <ymin>192</ymin>
+            <xmax>720</xmax>
+            <ymax>458</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>301</xmin>
+            <ymin>165</ymin>
+            <xmax>687</xmax>
+            <ymax>504</ymax>
+        </bndbox>
+    </object>
+</annotation>

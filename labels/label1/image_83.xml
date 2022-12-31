@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>wheel-chair-hospital-corridor-empty-wheelchair-parked-patient-rooms-hospital-empty-wheelchair-parked-hospital-walk-119717035.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>533</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>234</xmin>
+            <ymin>59</ymin>
+            <xmax>525</xmax>
+            <ymax>394</ymax>
+        </bndbox>
+    </object>
+</annotation>

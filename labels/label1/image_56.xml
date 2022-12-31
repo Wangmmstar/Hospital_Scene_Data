@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_56.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>dispenser</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>787.000000</xmin>
+            <ymin>312.000000</ymin>
+            <xmax>893.000000</xmax>
+            <ymax>564.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>light_switch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>567.000000</xmin>
+            <ymin>507.000000</ymin>
+            <xmax>609.000000</xmax>
+            <ymax>559.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
