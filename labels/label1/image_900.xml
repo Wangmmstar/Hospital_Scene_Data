@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Texas Children's Hospital Medical Center Campus Tour 343.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>telephone</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>2</xmin>
+            <ymin>258</ymin>
+            <xmax>25</xmax>
+            <ymax>300</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1174</xmin>
+            <ymin>255</ymin>
+            <xmax>1280</xmax>
+            <ymax>482</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>counter</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>321</xmin>
+            <ymin>334</ymin>
+            <xmax>783</xmax>
+            <ymax>546</ymax>
+        </bndbox>
+    </object>
+</annotation>
