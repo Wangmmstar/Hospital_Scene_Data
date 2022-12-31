@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>1000_F_205268036_4HwqTJHHXhL7RmF3mfbSGEj7uweyv3kp.jpg</filename>
+    <size>
+        <width>666</width>
+        <height>1000</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>203</xmin>
+            <ymin>460</ymin>
+            <xmax>605</xmax>
+            <ymax>968</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>patient</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>243</xmin>
+            <ymin>209</ymin>
+            <xmax>556</xmax>
+            <ymax>925</ymax>
+        </bndbox>
+    </object>
+</annotation>

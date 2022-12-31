@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>127586054-a-young-girl-in-a-wheelchair-is-standing-in-the-corridor-of-the-hospital.jpg</filename>
+    <size>
+        <width>1300</width>
+        <height>935</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>514</xmin>
+            <ymin>321</ymin>
+            <xmax>1179</xmax>
+            <ymax>928</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>patient</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>582</xmin>
+            <ymin>141</ymin>
+            <xmax>1115</xmax>
+            <ymax>785</ymax>
+        </bndbox>
+    </object>
+</annotation>

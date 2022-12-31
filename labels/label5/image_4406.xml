@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_4406.jpg</filename>
+    <size>
+        <width>1500</width>
+        <height>999</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>892.405334</xmin>
+            <ymin>606.393372</ymin>
+            <xmax>950.000000</xmax>
+            <ymax>797.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

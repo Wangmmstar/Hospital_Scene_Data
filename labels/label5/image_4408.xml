@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>2035ce06731c28a51d058dce37d811ba.jpg</filename>
+    <size>
+        <width>2448</width>
+        <height>3264</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>607</xmin>
+            <ymin>1772</ymin>
+            <xmax>676</xmax>
+            <ymax>2019</ymax>
+        </bndbox>
+    </object>
+</annotation>

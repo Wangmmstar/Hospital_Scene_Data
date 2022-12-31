@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>112685697-empty-modern-wheelchair-in-hospital.jpg</filename>
+    <size>
+        <width>1300</width>
+        <height>866</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>139</xmin>
+            <ymin>61</ymin>
+            <xmax>902</xmax>
+            <ymax>825</ymax>
+        </bndbox>
+    </object>
+</annotation>

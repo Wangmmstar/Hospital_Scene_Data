@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>46082863-young-patient-in-a-wheelchair-in-hospital.jpg</filename>
+    <size>
+        <width>1300</width>
+        <height>865</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>wheel_chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>617</xmin>
+            <ymin>291</ymin>
+            <xmax>1120</xmax>
+            <ymax>784</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>patient</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>587</xmin>
+            <ymin>102</ymin>
+            <xmax>1003</xmax>
+            <ymax>739</ymax>
+        </bndbox>
+    </object>
+</annotation>
