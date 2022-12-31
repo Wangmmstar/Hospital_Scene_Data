@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_4206.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>812.000000</xmin>
+            <ymin>308.572205</ymin>
+            <xmax>837.346130</xmax>
+            <ymax>338.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>dispenser</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1202.000000</xmin>
+            <ymin>283.000000</ymin>
+            <xmax>1240.000000</xmax>
+            <ymax>348.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

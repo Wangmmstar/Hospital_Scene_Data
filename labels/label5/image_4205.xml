@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_4205.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>850.000000</xmin>
+            <ymin>342.524963</ymin>
+            <xmax>879.313293</xmax>
+            <ymax>379.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
