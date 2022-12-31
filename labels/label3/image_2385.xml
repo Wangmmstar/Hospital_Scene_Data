@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>my-hospital-ward-tour 122.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>866</xmin>
+            <ymin>425</ymin>
+            <xmax>1280</xmax>
+            <ymax>631</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>549</xmin>
+            <ymin>369</ymin>
+            <xmax>627</xmax>
+            <ymax>423</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>366</xmin>
+            <ymin>341</ymin>
+            <xmax>393</xmax>
+            <ymax>355</ymax>
+        </bndbox>
+    </object>
+</annotation>
