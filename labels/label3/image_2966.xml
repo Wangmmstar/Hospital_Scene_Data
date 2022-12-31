@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hospital Tour 288.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1131</xmin>
+            <ymin>267</ymin>
+            <xmax>1161</xmax>
+            <ymax>293</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>hospital_bed</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>441</xmin>
+            <ymin>242</ymin>
+            <xmax>574</xmax>
+            <ymax>396</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>573</xmin>
+            <ymin>1</ymin>
+            <xmax>996</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>

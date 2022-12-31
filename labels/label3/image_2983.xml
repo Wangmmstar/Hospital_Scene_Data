@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hospital Tour 219.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>iv_pole</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>908</xmin>
+            <ymin>397</ymin>
+            <xmax>997</xmax>
+            <ymax>684</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>547</xmin>
+            <ymin>189</ymin>
+            <xmax>787</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>foot_board</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>899</xmin>
+            <ymin>621</ymin>
+            <xmax>1280</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>

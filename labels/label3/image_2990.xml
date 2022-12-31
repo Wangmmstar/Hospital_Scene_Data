@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hospital Tour 205.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>staff</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>325</xmin>
+            <ymin>118</ymin>
+            <xmax>566</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>exam_table</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>500</xmin>
+            <ymin>427</ymin>
+            <xmax>1280</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>

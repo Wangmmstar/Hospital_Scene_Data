@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_2951.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>push_latch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>458.642181</xmin>
+            <ymin>379.473602</ymin>
+            <xmax>957.000000</xmax>
+            <ymax>480.333344</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>person</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>625.000000</xmin>
+            <ymin>82.000000</ymin>
+            <xmax>911.000000</xmax>
+            <ymax>720.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
