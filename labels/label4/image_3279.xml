@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hallway4.jpg</filename>
+    <size>
+        <width>612</width>
+        <height>408</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>465</xmin>
+            <ymin>209</ymin>
+            <xmax>481</xmax>
+            <ymax>241</ymax>
+        </bndbox>
+    </object>
+</annotation>

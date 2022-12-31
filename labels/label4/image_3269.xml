@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hallway18.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>557</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>444</xmin>
+            <ymin>337</ymin>
+            <xmax>484</xmax>
+            <ymax>394</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>468</xmin>
+            <ymin>318</ymin>
+            <xmax>522</xmax>
+            <ymax>367</ymax>
+        </bndbox>
+    </object>
+</annotation>

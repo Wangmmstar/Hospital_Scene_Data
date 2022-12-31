@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Hallway10.jpg</filename>
+    <size>
+        <width>1290</width>
+        <height>862</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>424</xmin>
+            <ymin>341</ymin>
+            <xmax>434</xmax>
+            <ymax>368</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>859</xmin>
+            <ymin>351</ymin>
+            <xmax>1161</xmax>
+            <ymax>789</ymax>
+        </bndbox>
+    </object>
+</annotation>
