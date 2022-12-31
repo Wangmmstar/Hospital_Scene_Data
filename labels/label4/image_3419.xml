@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Geneva General Hospital Virtual Tour 2014 518.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>334</ymin>
+            <xmax>464</xmax>
+            <ymax>690</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>hallway_assist_bar</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>895</xmin>
+            <ymin>312</ymin>
+            <xmax>1280</xmax>
+            <ymax>617</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>press_to_open</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1168</xmin>
+            <ymin>398</ymin>
+            <xmax>1210</xmax>
+            <ymax>464</ymax>
+        </bndbox>
+    </object>
+</annotation>
