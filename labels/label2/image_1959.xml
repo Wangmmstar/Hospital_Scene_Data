@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>operating81.jpg</filename>
+    <size>
+        <width>612</width>
+        <height>408</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>exam_table</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>48</xmin>
+            <ymin>100</ymin>
+            <xmax>470</xmax>
+            <ymax>407</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>utility_cart</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>150</ymin>
+            <xmax>82</xmax>
+            <ymax>319</ymax>
+        </bndbox>
+    </object>
+</annotation>
