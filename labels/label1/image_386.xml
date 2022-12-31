@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_386.jpg</filename>
+    <size>
+        <width>1140</width>
+        <height>858</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>ventilator</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>320.719299</xmin>
+            <ymin>41.000000</ymin>
+            <xmax>977.000000</xmax>
+            <ymax>857.001160</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>breathing_tube</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>148.000000</xmin>
+            <ymin>1.000000</ymin>
+            <xmax>980.000000</xmax>
+            <ymax>858.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>

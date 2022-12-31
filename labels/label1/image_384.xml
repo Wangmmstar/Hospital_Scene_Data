@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>ventilator115.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>855</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>ventilator</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>326</xmin>
+            <ymin>35</ymin>
+            <xmax>719</xmax>
+            <ymax>855</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>medical_drawer</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>365</ymin>
+            <xmax>236</xmax>
+            <ymax>830</ymax>
+        </bndbox>
+    </object>
+</annotation>
