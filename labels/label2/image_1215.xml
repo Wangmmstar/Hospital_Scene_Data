@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_1215.jpg</filename>
+    <size>
+        <width>650</width>
+        <height>650</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>toilet</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>215.000000</xmin>
+            <ymin>355.000000</ymin>
+            <xmax>458.000000</xmax>
+            <ymax>597.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>563.000000</xmin>
+            <ymin>90.000000</ymin>
+            <xmax>634.000000</xmax>
+            <ymax>127.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
