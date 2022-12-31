@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>gettyimages-1350035685-612x612.jpg</filename>
+    <size>
+        <width>612</width>
+        <height>408</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>211</xmin>
+            <ymin>5</ymin>
+            <xmax>307</xmax>
+            <ymax>327</ymax>
+        </bndbox>
+    </object>
+</annotation>
