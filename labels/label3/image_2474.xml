@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>my-hospital-ward-tour 027.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>31</xmin>
+            <ymin>234</ymin>
+            <xmax>326</xmax>
+            <ymax>391</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>TV</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>791</xmin>
+            <ymin>206</ymin>
+            <xmax>880</xmax>
+            <ymax>311</ymax>
+        </bndbox>
+    </object>
+</annotation>

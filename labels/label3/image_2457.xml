@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>my-hospital-ward-tour 044.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>TV</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>910</xmin>
+            <ymin>158</ymin>
+            <xmax>1280</xmax>
+            <ymax>613</ymax>
+        </bndbox>
+    </object>
+</annotation>
