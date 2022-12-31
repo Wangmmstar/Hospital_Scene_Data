@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>model.feature.jpg</filename>
+    <size>
+        <width>433</width>
+        <height>419</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>399</xmin>
+            <ymin>180</ymin>
+            <xmax>420</xmax>
+            <ymax>281</ymax>
+        </bndbox>
+    </object>
+</annotation>
