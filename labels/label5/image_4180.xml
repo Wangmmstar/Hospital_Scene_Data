@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_4180.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>675.000000</xmin>
+            <ymin>372.483307</ymin>
+            <xmax>718.439026</xmax>
+            <ymax>430.402771</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>725.433594</xmin>
+            <ymin>369.487518</ymin>
+            <xmax>768.000000</xmax>
+            <ymax>444.383331</ymax>
+        </bndbox>
+    </object>
+</annotation>
