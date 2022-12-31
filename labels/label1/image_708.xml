@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>The Teck Acute Care Centre at BC Children_s Hospital – Video Tour with Michael Bublé 170 - 副本 - 副本.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>infusion_pump</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>334</xmin>
+            <ymin>177</ymin>
+            <xmax>1138</xmax>
+            <ymax>629</ymax>
+        </bndbox>
+    </object>
+</annotation>

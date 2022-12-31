@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>The Teck Acute Care Centre at BC Children_s Hospital – Video Tour with Michael Bublé 123 - 副本 - 副本.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>xray_machine</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>600</xmin>
+            <ymin>383</ymin>
+            <xmax>896</xmax>
+            <ymax>655</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>xray_bed</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>575</xmin>
+            <ymin>543</ymin>
+            <xmax>813</xmax>
+            <ymax>720</ymax>
+        </bndbox>
+    </object>
+</annotation>
