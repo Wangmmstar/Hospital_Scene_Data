@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_678.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>iv_pole</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1190.000000</xmin>
+            <ymin>196.000000</ymin>
+            <xmax>1234.000000</xmax>
+            <ymax>358.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>infusion_pump</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1014.000000</xmin>
+            <ymin>336.000000</ymin>
+            <xmax>1280.000000</xmax>
+            <ymax>662.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
