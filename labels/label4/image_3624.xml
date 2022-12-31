@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>front-view-of-two-elevator-doors-ron-koeberer.jpg</filename>
+    <size>
+        <width>900</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>447</xmin>
+            <ymin>255</ymin>
+            <xmax>483</xmax>
+            <ymax>332</ymax>
+        </bndbox>
+    </object>
+</annotation>

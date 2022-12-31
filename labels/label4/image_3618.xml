@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Geneva General Hospital Virtual Tour 2014 084.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>sofa</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>856</xmin>
+            <ymin>330</ymin>
+            <xmax>1053</xmax>
+            <ymax>565</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>sofa</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1059</xmin>
+            <ymin>413</ymin>
+            <xmax>1280</xmax>
+            <ymax>710</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>waste_bin</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>739</xmin>
+            <ymin>395</ymin>
+            <xmax>847</xmax>
+            <ymax>548</ymax>
+        </bndbox>
+    </object>
+</annotation>

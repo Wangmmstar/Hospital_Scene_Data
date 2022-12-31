@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_3626.jpg</filename>
+    <size>
+        <width>750</width>
+        <height>750</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>waste_bin</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>619.000000</xmin>
+            <ymin>472.000000</ymin>
+            <xmax>726.000000</xmax>
+            <ymax>709.000000</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>elevator_panel</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>524.000000</xmin>
+            <ymin>399.000000</ymin>
+            <xmax>549.000000</xmax>
+            <ymax>466.000000</ymax>
+        </bndbox>
+    </object>
+</annotation>
