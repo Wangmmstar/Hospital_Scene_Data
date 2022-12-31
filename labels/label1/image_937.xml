@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Texas Children's Hospital Medical Center Campus Tour 212.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>staff</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>695</xmin>
+            <ymin>177</ymin>
+            <xmax>844</xmax>
+            <ymax>699</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>staff</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>338</xmin>
+            <ymin>231</ymin>
+            <xmax>526</xmax>
+            <ymax>701</ymax>
+        </bndbox>
+    </object>
+</annotation>

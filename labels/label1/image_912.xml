@@ -1,0 +1,19 @@
+<annotation>
+    <folder>image</folder>
+    <filename>image_912.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>push_latch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>343.732025</xmin>
+            <ymin>322.552765</ymin>
+            <xmax>438.000000</xmax>
+            <ymax>357.504150</ymax>
+        </bndbox>
+    </object>
+</annotation>
