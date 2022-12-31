@@ -1,0 +1,29 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>Birth Center Tour 2020 - Valley Medical Center 440.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>721</xmin>
+            <ymin>274</ymin>
+            <xmax>761</xmax>
+            <ymax>342</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>push_latch</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>956</xmin>
+            <ymin>377</ymin>
+            <xmax>1173</xmax>
+            <ymax>502</ymax>
+        </bndbox>
+    </object>
+</annotation>
