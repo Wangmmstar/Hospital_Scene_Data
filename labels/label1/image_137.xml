@@ -1,0 +1,39 @@
+<annotation>
+    <folder>image_cleaned</folder>
+    <filename>welcome-to-the-big-lots-behavioral-health-pavilion-come-behind-the-scenes 281.jpg</filename>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <object>
+        <name>door_handle</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>226</xmin>
+            <ymin>510</ymin>
+            <xmax>310</xmax>
+            <ymax>672</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>sofa</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>277</xmin>
+            <ymin>293</ymin>
+            <xmax>609</xmax>
+            <ymax>551</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>chair</name>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>595</xmin>
+            <ymin>322</ymin>
+            <xmax>652</xmax>
+            <ymax>583</ymax>
+        </bndbox>
+    </object>
+</annotation>
