@@ -60,7 +60,7 @@ The image folders contain the original jpeg files. The labels folers contains xm
 55. breathing tube
 56. overbed table
 
-#The data details
+# The data details
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
