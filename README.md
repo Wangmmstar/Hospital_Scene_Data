@@ -62,7 +62,7 @@ The image folders contain the original jpeg files. The labels folers contains xm
 
 # The data details
 | Label        | Number of objects       | Number of images         |
-| :---         |     :---:               |     :---:                | 
+| :---         |     :-----:               |     :-----:                | 
 | sofa         | 1306              | 687    |
 | chair        | 4777              | 1812     |
 | foot board   | 606               | 490     |
