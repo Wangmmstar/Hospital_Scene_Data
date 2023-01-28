@@ -61,7 +61,7 @@ The image folders contain the original jpeg files. The labels folers contains xm
 56. overbed table
 
 # The data details
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
+| Label        | Number of objects | Number of images  |
+| :---         |     :---:         |     :---:         | 
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
