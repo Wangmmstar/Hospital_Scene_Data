@@ -1,5 +1,10 @@
 # Hospital_Scene_Data
-This dataset helps detetcting and classifying the objects in indoor hospital environment. It contains 56 types of objects in hospital.
+A new dataset to facilitate the task of
+object detection in the hospital. The proposed
+hospital indoor object detection (HIOD) dataset has **4,427** annotated images covering **56** object
+categories with **52,609** annotated object instances. It is believed that
+the dataset provide valuable resources for researchers and practitioners to develop
+computer-vision-based applications in hospitals.
 
 # Data Preparation
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
