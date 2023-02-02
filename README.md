@@ -3,8 +3,10 @@
 A new dataset to facilitate the task of
 object detection in the hospital. The proposed
 hospital indoor object detection (HIOD) dataset has **4,427** annotated images covering **56** object
-categories with **52,609** annotated object instances. It is believed that
-the dataset provide valuable resources for researchers and practitioners to develop
+categories with **52,609** annotated object instances. Furthermore, a benchmark containing eight
+state-of-the-art object detectors is created on the dataset. The benchmark indicates that the network
+trained on the HIOD dataset can accurately detect and classify objects in hospitals. It is believed that
+the dataset and benchmark provide valuable resources for researchers and practitioners to develop
 computer-vision-based applications in hospitals.
 
 # Data Preparation
@@ -83,6 +85,7 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 
 
 # Comparision with Other Datasets
+
 The image shows the statistics and comparison with COCO, VOC, and OpenImages. The HIOD is found to be denser and more diverse than COCO,
 VOC, and OpenImages with regard to the number of objects and categories on an image. Quantitatively, our HIOD dataset has an average and median of 11.9 and 10 objects on an image, respectively. In comparison, the average number of objects per image for COCO, VOC, and OpenImages are 7.3, 8.2, and 2.7, respectively. The median number of objects per image for
 COCO, VOC, and OpenImages are 4, 2, and 4, respectively. On the other hand, our HIOD dataset
@@ -92,6 +95,20 @@ HIOD dataset lay a solid foundation to build a robust object detector in hospita
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.png?raw=true)
 
+# Benchmark Performance
+
+
+# Example Detection Results
+
+The confusion matrices for YOLOv6-L and VFNet are shown in below figure. The diagonal value
+represents the recall for the corresponding object category. The confusion matrix indicates a large
+performance variation across object categories.
+
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.png?raw=true)
+
+Some examples of detection results by YOLOv6-L network.
+
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.png?raw=true)
 
 # Usage
 
