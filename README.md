@@ -2,7 +2,7 @@
 This dataset helps detetcting and classifying the objects in indoor hospital environment. It contains 56 types of objects in hospital.
 
 # Image Sources
-![dataset](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
 
 
 # Usage
