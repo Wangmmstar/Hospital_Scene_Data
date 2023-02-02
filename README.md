@@ -4,9 +4,7 @@ This dataset helps detetcting and classifying the objects in indoor hospital env
 # Data Preparation
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
 The preparation of the hospital indoor object detection (HIOD) dataset consists of four steps: object
-category selection, image collection, image selection, and image annotation (see Fig. 2). The details
-of each step are elaborated below.
-
+category selection, image collection, image selection, and image annotation.
 # Usage
 The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
 
