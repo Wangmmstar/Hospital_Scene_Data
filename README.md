@@ -97,9 +97,9 @@ HIOD dataset lay a solid foundation to build a robust object detector in hospita
 
 # Benchmark Performance
 
-| **Algorithm** | **mAP** | **$A\mathbf{P}_{50}$** | **mAP** | **mAP** | **mAP** | **mAP** |
+| **Algorithm** | **mAP** | **$A\mathbf{P}_{50}$** | **$A\mathbf{P}_{75}$** | **$A\mathbf{P}_{small}$** | **$A\mathbf{P}_{medium}$** | **$A\mathbf{P}_{large}$** |
 | --- | --- | --- | --- | --- | --- | --- |
-| `git status` | List all *new or modified* files |
+| `git status` 
 | `git diff` | Show file differences that **haven't been** staged |
 
 
