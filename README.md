@@ -1,5 +1,10 @@
 # Hospital_Scene_Data
 This dataset helps detetcting and classifying the objects in indoor hospital environment. It contains 56 types of objects in hospital.
+
+# Image Sources
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
+
+
 # Usage
 The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
 
