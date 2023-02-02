@@ -81,15 +81,14 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 | xray machine | 58      | 57    |
 | xray bed     | 57     | 51    |
 
-Number of objects and number of images for each type of indoor object in the HIOD dataset.
-
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_details.png?raw=true)
-
-Distribution of the bounding box size in the HIOD dataset.
-
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/size_distribution.png?raw=true)
 
 # Comparision with Other Datasets
+The image shows the statistics and comparison with COCO, VOC, and OpenImages. The HIOD is found to be denser and more diverse than COCO,
+VOC, and OpenImages with regard to the number of objects and categories on an image. Quantitatively, our HIOD dataset has an average and median of 11.9 and 10 objects on an image, respectively. In comparison, the average number of objects per image for COCO, VOC, and OpenImages are 7.3, 8.2, and 2.7, respectively. The median number of objects per image for
+COCO, VOC, and OpenImages are 4, 2, and 4, respectively. On the other hand, our HIOD dataset
+contains an average and median of 6.8 and 6 object categories per image, respectively, which are
+both significantly greater than other benchmarks. The dense instances and diverse categories in the
+HIOD dataset lay a solid foundation to build a robust object detector in hospitals.
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.png?raw=true)
 
