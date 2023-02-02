@@ -1,4 +1,5 @@
-# Hospital_Scene_Data
+# Hospital Indoor Object Detection (HIOD) dataset
+
 A new dataset to facilitate the task of
 object detection in the hospital. The proposed
 hospital indoor object detection (HIOD) dataset has **4,427** annotated images covering **56** object
@@ -7,13 +8,20 @@ the dataset provide valuable resources for researchers and practitioners to deve
 computer-vision-based applications in hospitals.
 
 # Data Preparation
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
-The preparation of the hospital indoor object detection (HIOD) dataset consists of four steps: object
-category selection, image collection, image selection, and image annotation.
-# Usage
-The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
 
-# The training data details 
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
+The preparation of the HIOD dataset consists of four steps: object
+category selection, image collection, image selection, and image annotation.
+
+# Example Data
+
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.png?raw=true)
+Image data were related to hospital
+indoor environments, such as “intensive care unit,” “operating room,” “hospital consulting room,”
+“hospital tour,” “hospital waiting room,” and more.
+
+# The HIOD Dataset Details 
+
 | Label        | Number of objects       | Number of images         |
 | :---         |     :-----:               |     :-----:                | 
 | sofa         | 1306              | 687    |
@@ -72,3 +80,19 @@ The image folders contain the original jpeg files. The labels folers contains xm
 | surgical instrument | 87 | 58    |
 | xray machine | 58      | 57    |
 | xray bed     | 57     | 51    |
+
+Number of objects and number of images for each type of indoor object in the HIOD dataset.
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_details.png?raw=true)
+
+Distribution of the bounding box size in the HIOD dataset.
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/size_distribution.png?raw=true)
+
+# Comparision with Other Datasets
+
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.png?raw=true)
+
+
+# Usage
+
+The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
+
