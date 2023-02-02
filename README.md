@@ -82,9 +82,11 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 | xray bed     | 57     | 51    |
 
 Number of objects and number of images for each type of indoor object in the HIOD dataset.
+
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_details.png?raw=true)
 
 Distribution of the bounding box size in the HIOD dataset.
+
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/size_distribution.png?raw=true)
 
 # Comparision with Other Datasets
