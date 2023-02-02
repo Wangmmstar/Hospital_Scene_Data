@@ -99,7 +99,7 @@ HIOD dataset lay a solid foundation to build a robust object detector in hospita
 
 The performance of the eight algorithms is summarized in Table below.
 
-| **Algorithm** | **mAP** | **$A\mathbf{P}_{50}$** | **$A\mathbf{P}_{75}$** | **$A\mathbf{P}_{small}$** | **$A\mathbf{P}_{medium}$** | **$A\mathbf{P}_{large}$** |
+| **Algorithm** | **mAP** | **$\mathbf{AP}_{50}$** | **$A\mathbf{P}_{75}$** | **$A\mathbf{P}_{small}$** | **$A\mathbf{P}_{medium}$** | **$A\mathbf{P}_{large}$** |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **One-stage**|
 | YOLOv5-L | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
