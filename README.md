@@ -89,7 +89,7 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 # Comparision with Other Datasets
 
 The image shows the statistics and comparison with COCO, VOC, and OpenImages. The HIOD is found to be denser and more diverse than COCO,
-VOC, and OpenImages with regard to the number of objects and categories on an image. Quantitatively, our HIOD dataset has an average and median of 11.9 and 10 objects on an image, respectively. In comparison, the average number of objects per image for COCO, VOC, and OpenImages are 7.3, 8.2, and 2.7, respectively. The median number of objects per image for
+VOC, and OpenImages with regard to the number of objects and categories on an image. Quantitatively, our HIOD dataset has an average and median of 11.7 and 10 objects on an image, respectively. In comparison, the average number of objects per image for COCO, VOC, and OpenImages are 7.3, 8.2, and 2.7, respectively. The median number of objects per image for
 COCO, VOC, and OpenImages are 4, 2, and 4, respectively. On the other hand, our HIOD dataset
 contains an average and median of 6.8 and 6 object categories per image, respectively, which are
 both significantly greater than other benchmarks. The dense instances and diverse categories in the
@@ -105,15 +105,15 @@ The performance of the eight algorithms is summarized in Table below.
 | **Algorithm** | **mAP** | **$\mathbf{AP}_{50}$** | **$\mathbf{AP}_{75}$** | **$\mathbf{AP}_{small}$** | **$\mathbf{AP}_{medium}$** | **$\mathbf{AP}_{large}$** |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **One-stage**|
-| YOLOv5-L | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| YOLOX-L | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| YOLOv6-L | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| YOLOv7 | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
+| YOLOv5-L | 0.493 |0.718 |0.525 |0.183 |0.411 |0.573 |
+| YOLOX-L | 0.479 |0.706 |0.510 |0.195 |0.399 |0.539 |
+| YOLOv6-L | 0.528 |0.758 |0.567 |0.193 |0.436 |0.652 |
+| YOLOv7 | 0.525 |0.758 |0.567 |0.201 |0.446 |0.614 |
 | **Two-stage**|
-| Faster R-CNN | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| Deformable DETR | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| VENet | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
-| DyHead | 0.484 |0.698 |0.518 |0.183 |0.386 |0.561 |
+| Faster R-CNN | 0.418 |0.677 |0.454 |0.146 |0.359 |0.491 |
+| Deformable DETR | 0.493 |0.747 |0.531 |0.202 |0.408 |0.578 |
+| VENet | 0.506 |0.731 |0.548 |0.205 |0.431 |0.583 |
+| DyHead | 0.440 |0.659 |0.473 |0.141 |0.353 |0.530 |
 
 
 # Example Detection Results
