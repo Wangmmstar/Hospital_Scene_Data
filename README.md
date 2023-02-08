@@ -126,7 +126,7 @@ performance variation across object categories.
 
 Some examples of detection results by YOLOv6-L network.
 
-![img|500](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.svg?raw=true)
+![img|1000](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.svg?raw=true)
 
 # Usage
 
