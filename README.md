@@ -12,12 +12,14 @@ computer-vision-based applications in hospitals.
 # Data Preparation
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.svg?raw=true)
+
 The preparation of the HIOD dataset consists of four steps: object
 category selection, image collection, image selection, and image annotation.
 
 # Example Data
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.svg?raw=true)
+
 Image data were related to hospital
 indoor environments, such as “intensive care unit,” “operating room,” “hospital consulting room,”
 “hospital tour,” “hospital waiting room,” and more.
