@@ -11,13 +11,13 @@ computer-vision-based applications in hospitals.
 
 # Data Preparation
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.svg?raw=true)
 The preparation of the HIOD dataset consists of four steps: object
 category selection, image collection, image selection, and image annotation.
 
 # Example Data
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.png?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.svg?raw=true)
 Image data were related to hospital
 indoor environments, such as “intensive care unit,” “operating room,” “hospital consulting room,”
 “hospital tour,” “hospital waiting room,” and more.
@@ -93,7 +93,7 @@ contains an average and median of 6.8 and 6 object categories per image, respect
 both significantly greater than other benchmarks. The dense instances and diverse categories in the
 HIOD dataset lay a solid foundation to build a robust object detector in hospitals.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.png?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.svg?raw=true)
 
 # Benchmark Performance
 
@@ -119,7 +119,7 @@ The confusion matrices for YOLOv6-L and VFNet are shown in below figure. The dia
 represents the recall for the corresponding object category. The confusion matrix indicates a large
 performance variation across object categories.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.png?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.svg?raw=true)
 
 Some examples of detection results by YOLOv6-L network.
 
