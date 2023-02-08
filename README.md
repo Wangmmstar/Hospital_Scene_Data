@@ -93,7 +93,8 @@ contains an average and median of 6.8 and 6 object categories per image, respect
 both significantly greater than other benchmarks. The dense instances and diverse categories in the
 HIOD dataset lay a solid foundation to build a robust object detector in hospitals.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.svg?raw=true)\n
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_comparasion.svg?raw=true)
+
 
 # Benchmark Performance
 
@@ -123,7 +124,7 @@ performance variation across object categories.
 
 Some examples of detection results by YOLOv6-L network.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/Picture8.svg?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.svg?raw=true)
 
 # Usage
 
