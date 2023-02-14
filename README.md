@@ -11,14 +11,14 @@ computer-vision-based applications in hospitals.
 
 # Data Preparation
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.svg?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
 
 The preparation of the HIOD dataset consists of four steps: object
 category selection, image collection, image selection, and image annotation.
 
 # Example Data
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.svg?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/example_indoor_scenes.png?raw=true)
 
 Image data were related to hospital
 indoor environments, such as “intensive care unit,” “operating room,” “hospital consulting room,”
@@ -126,7 +126,7 @@ performance variation across object categories.
 
 Some examples of detection results by YOLOv6-L network.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.svg?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.png?raw=true)
 
 # Usage
 
