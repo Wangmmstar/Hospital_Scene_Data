@@ -112,7 +112,7 @@ The performance of the eight algorithms is summarized in Table below.
 | **Two-stage**|
 | Faster R-CNN | 0.418 |0.677 |0.454 |0.146 |0.359 |0.491 |
 | Deformable DETR | 0.493 |0.747 |0.531 |0.202 |0.408 |0.578 |
-| VENet | 0.506 |0.731 |0.548 |0.205 |0.431 |0.583 |
+| VFNet | 0.506 |0.731 |0.548 |0.205 |0.431 |0.583 |
 | DyHead | 0.440 |0.659 |0.473 |0.141 |0.353 |0.530 |
 
 
