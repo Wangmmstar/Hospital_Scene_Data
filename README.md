@@ -100,7 +100,7 @@ HIOD dataset lay a solid foundation to build a robust object detector in hospita
 
 # Benchmark Performance
 
-The performance of the eight algorithms is summarized in Table below.
+Eight state-of-the-art object detectors are trained on this dataset, which is randomly partitioned into a training set (70%), a validation set (10%), and a testing set (20%). The performance of these algorithms achieved on the testing set is summarized in Table below.
 
 | **Algorithm** | **mAP** | **$\mathbf{AP}_{50}$** | **$\mathbf{AP}_{75}$** | **$\mathbf{AP}_{small}$** | **$\mathbf{AP}_{medium}$** | **$\mathbf{AP}_{large}$** |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
