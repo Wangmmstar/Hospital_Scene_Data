@@ -122,12 +122,12 @@ The confusion matrices for YOLOv6-L and VFNet are shown in below figure. The dia
 represents the recall for the corresponding object category. The confusion matrix indicates a large
 performance variation across object categories.
 
-![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.svg?raw=true)
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.jpg?raw=true)
 
 Some examples of detection results by YOLOv6-L network.
 
-<!-- ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg?raw=true) -->
-<img src="https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg"  width="70%" height="70%">
+![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg?raw=true)
+<!-- <img src="https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg"  width="70%" height="70%"> -->
 
 # Usage
 
