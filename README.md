@@ -119,8 +119,7 @@ Eight state-of-the-art object detectors are trained on this dataset, which is ra
 # Example Detection Results
 
 The confusion matrices for YOLOv6-L and VFNet are shown in below figure. The diagonal value
-represents the recall for the corresponding object category. The confusion matrix indicates a large
-performance variation across object categories.
+represents the recall for the corresponding object category. 
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/confusion_matrix.jpg?raw=true)
 
