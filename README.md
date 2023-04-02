@@ -24,6 +24,12 @@ Image data were related to hospital
 indoor environments, such as “intensive care unit,” “operating room,” “hospital consulting room,”
 “hospital tour,” “hospital waiting room,” and more.
 
+# Usage
+
+Anyone who want to access the data folder could redirect to https://docs.google.com/forms/d/e/1FAIpQLSfI3UKkkIjvH1RGrN4BbCXCHLyRrtKt-jkJkMduw4K7ZXDNuA/viewform?usp=sf_link
+
+The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
+
 # The HIOD Dataset Details 
 
 | Label        | Number of objects       | Number of images         |
@@ -126,11 +132,3 @@ represents the recall for the corresponding object category.
 Some examples of detection results by YOLOv6-L network.
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg?raw=true)
-
-
-# Usage
-
-Anyone who want to access the data folder could redirect to https://docs.google.com/forms/d/e/1FAIpQLSfI3UKkkIjvH1RGrN4BbCXCHLyRrtKt-jkJkMduw4K7ZXDNuA/viewform?usp=sf_link
-
-The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
-
