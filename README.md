@@ -3,7 +3,7 @@
 A new dataset to facilitate the task of
 object detection in the hospital. The proposed
 hospital indoor object detection (HIOD) dataset has **4,417** annotated images covering **56** object
-categories with **51,809** annotated object instances. The dataset is characterized by dense annotation, with an average of **11.7** objects and **6.8** object categories per image. Furthermore, a benchmark containing eight
+categories with **51,869** annotated object instances. The dataset is characterized by dense annotation, with an average of **11.7** objects and **6.8** object categories per image. Furthermore, a benchmark containing eight
 state-of-the-art object detectors is created on the dataset. The benchmark indicates that the network
 trained on the HIOD dataset can accurately detect and classify objects in hospitals. It is believed that
 the dataset and benchmark provide valuable resources for researchers and practitioners to develop
