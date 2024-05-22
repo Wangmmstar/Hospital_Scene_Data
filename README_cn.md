@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner-YOLO.png" align="middle" width = "1000" />
-</p>
-
 简体中文 | [English](README.md)
 
 ## YOLOv6
@@ -258,9 +254,4 @@ python tools/infer.py --weights yolov6s6.pt --img 1280 1280 --webcam --webcam-ad
  * YOLOv6 在 Google Colab 上的推理 Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahdilamb/YOLOv6/blob/main/inference.ipynb)
 </details>
 
-### [FAQ（持续更新）](https://github.com/meituan/YOLOv6/wiki/FAQ%EF%BC%88Continuously-updated%EF%BC%89)
 
-如果您有任何问题，欢迎加入我们的微信群一起讨论交流！
-<p align="center">
-  <img src="assets/wechat_qrcode.png" align="middle" width = "1000" />
-</p>
