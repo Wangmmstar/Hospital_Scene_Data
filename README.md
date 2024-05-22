@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/banner-YOLO.png" align="middle" width = "1000" />
-</p>
-
 English | [简体中文](README_cn.md)
 
  <br>
@@ -18,10 +14,6 @@ English | [简体中文](README_cn.md)
 Implementation of paper:
 - [YOLOv6 v3.0: A Full-Scale Reloading](https://arxiv.org/abs/2301.05586) 🔥
 - [YOLOv6: A Single-Stage Object Detection Framework for Industrial Applications](https://arxiv.org/abs/2209.02976)
-
-<p align="center">
-  <img src="assets/speed_comparision_v3.png" align="middle" width = "1000" />
-</p>
 
 
 ## What's New
@@ -281,9 +273,3 @@ python tools/infer.py --weights yolov6s6.pt --img 1280 1280 --webcam --webcam-ad
 
    </details>
 
-### [FAQ（Continuously updated）](https://github.com/meituan/YOLOv6/wiki/FAQ%EF%BC%88Continuously-updated%EF%BC%89)
-
-If you have any questions, welcome to join our WeChat group to discuss and exchange.
-<p align="center">
-  <img src="assets/wechat_qrcode.png" align="middle" width = "1000" />
-</p>
