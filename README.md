@@ -159,12 +159,6 @@ pip install -r requirements.txt
 ```
 </details>
 
-
-<details>
-<summary> Reproduce our results on HIOD</summary>
-
-</details>
-
 <details open>
 <summary> Finetune on custom data</summary>
 
