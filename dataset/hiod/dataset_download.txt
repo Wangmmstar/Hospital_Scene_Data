@@ -1,0 +1,16 @@
+Due to the HIOD dataset size, its zip file is saved in Google Drive. Below is the download link:
+
+https://docs.google.com/forms/d/e/1FAIpQLSfI3UKkkIjvH1RGrN4BbCXCHLyRrtKt-jkJkMduw4K7ZXDNuA/viewform?usp=sf_link
+
+The related training and testing code is available on GitHub:
+
+https://github.com/Wangmmstar/Hospital_Scene_Data
+
+The YouTube video is accessible from https://youtu.be/_u_Ct77K2_Y
+
+If there are any questions, please don't hesitate to contact us.
+
+dhu3@kennesaw.edu
+mwang43@vols.utk.edu
+sli48@utk.edu
+
