@@ -121,10 +121,6 @@ Some examples of detection results by YOLOv6-L network.
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg?raw=true)
 
-# 代码测试数据集
-
-这里 Yolo V6及其变体被用来测试 HIOD 数据集的质量。
-
 
 ## 快速开始
 
@@ -133,16 +129,9 @@ Some examples of detection results by YOLOv6-L network.
 
 
 ```shell
-git clone https://github.com/meituan/YOLOv6
-cd YOLOv6
+git clone https://github.com/Wangmmstar/Hospital_Scene_Data.git
 pip install -r requirements.txt
 ```
-</details>
-
-<details>
-<summary> 在 COCO 数据集上复现我们的结果</summary>
-
-请参考教程 [训练 COCO 数据集](./docs/Train_coco_data.md).
 
 </details>
 
@@ -153,25 +142,25 @@ pip install -r requirements.txt
 
 ```shell
 # P5 models
-python tools/train.py --batch 32 --conf configs/yolov6s_finetune.py --data data/dataset.yaml --fuse_ab --device 0
+python tools/train.py --batch 32 --conf configs/yolov6s_finetune.py --data data/hiod.yaml --fuse_ab --device 0
 # P6 models
-python tools/train.py --batch 32 --conf configs/yolov6s6_finetune.py --data data/dataset.yaml --img 1280 --device 0
+python tools/train.py --batch 32 --conf configs/yolov6s6_finetune.py --data data/hiod.yaml --img 1280 --device 0
 ```
 
 多卡 （我们推荐使用 DDP 模式）
 
 ```shell
 # P5 models
-python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 256 --conf configs/yolov6s_finetune.py --data data/dataset.yaml --fuse_ab --device 0,1,2,3,4,5,6,7
+python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 256 --conf configs/yolov6s_finetune.py --data data/hiod.yaml --fuse_ab --device 0,1,2,3,4,5,6,7
 # P6 models
-python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128 --conf configs/yolov6s6_finetune.py --data data/dataset.yaml --img 1280 --device 0,1,2,3,4,5,6,7
+python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128 --conf configs/yolov6s6_finetune.py --data data/hiod.yaml --img 1280 --device 0,1,2,3,4,5,6,7
 ```
 - fuse_ab: 增加anchor-based预测分支并使用联合锚点训练模式 (P6模型暂不支持此功能)
 - conf: 配置文件路径，里面包含网络结构、优化器配置、超参数信息。如果您是在自己的数据集训练，我们推荐您使用yolov6n/s/m/l_finetune.py配置文件；
-- data: 数据集配置文件，以 COCO 数据集为例，您可以在 [COCO](http://cocodataset.org) 下载数据, 在这里下载 [YOLO 格式标签](https://github.com/meituan/YOLOv6/releases/download/0.1.0/coco2017labels.zip)；
+- data: 数据集配置文件 hiod.yaml
 - 确保您的数据集按照下面这种格式来组织；
 ```
-├── coco
+├── hiod
 │   ├── annotations
 │   │   ├── instances_train2017.json
 │   │   └── instances_val2017.json
@@ -213,13 +202,13 @@ python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --resume
 
 <details>
 <summary> 评估</summary>
-在 COCO val2017 数据集上复现我们的结果（输入分辨率 640x640 或 1280x1280）
+在 HIOD 数据集上复现我们的结果（输入分辨率 640x640 或 1280x1280）
 
 ```shell
 # P5 models
-python tools/eval.py --data data/coco.yaml --batch 32 --weights yolov6s.pt --task val --reproduce_640_eval
+python tools/eval.py --data data/hiod.yaml --batch 32 --weights yolov6s.pt --task val --reproduce_640_eval
 # P6 models
-python tools/eval.py --data data/coco.yaml --batch 32 --weights yolov6s6.pt --task val --reproduce_640_eval --img 1280
+python tools/eval.py --data data/hiod.yaml --batch 32 --weights yolov6s6.pt --task val --reproduce_640_eval --img 1280
 ```
 - verbose: 如果要打印每一类的精度信息，请设置为 True；
 - do_coco_metric: 设置 True / False 来打开或关闭 pycocotools 的评估；
@@ -249,37 +238,8 @@ python tools/infer.py --weights yolov6s.pt --webcam --webcam-addr 0
 python tools/infer.py --weights yolov6s6.pt --img 1280 1280 --webcam --webcam-addr 0
 ```
 `webcam-addr` 可以是本地摄像头的 ID，或者是 RTSP 地址。
-</details>
-
-<details>
-<summary> 部署 </summary>
-
-*  [ONNX](./deploy/ONNX)
-*  [OpenCV Python/C++](./deploy/ONNX/OpenCV)
-*  [OpenVINO](./deploy/OpenVINO)
-*  [TensorRT](./deploy/TensorRT)
-*  [NCNN](./deploy/NCNN)
-*  [Android](./deploy/NCNN/Android)
-</details>
-
-<details open>
-<summary> 教程 </summary>
-
-*  [用户手册（中文版）](https://yolov6-docs.readthedocs.io/zh_CN/latest/)
-*  [训练 COCO 数据集](./docs/Train_coco_data.md)
-*  [训练自定义数据集](./docs/Train_custom_data.md)
-*  [测速](./docs/Test_speed.md)
-*  [ YOLOv6 量化教程](./docs/Tutorial%20of%20Quantization.md)
-</details>
 
 
-<details>
-<summary> 第三方资源 </summary>
-
- * YOLOv6 NCNN Android app demo: [ncnn-android-yolov6](https://github.com/FeiGeChuanShu/ncnn-android-yolov6) from [FeiGeChuanShu](https://github.com/FeiGeChuanShu)
- * YOLOv6 ONNXRuntime/MNN/TNN C++: [YOLOv6-ORT](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/yolov6.cpp), [YOLOv6-MNN](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_yolov6.cpp) and [YOLOv6-TNN](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_yolov6.cpp) from [DefTruth](https://github.com/DefTruth)
- * YOLOv6 TensorRT Python: [yolov6-tensorrt-python](https://github.com/Linaom1214/TensorRT-For-YOLO-Series) from [Linaom1214](https://github.com/Linaom1214)
- * YOLOv6 TensorRT Windows C++: [yolort](https://github.com/zhiqwang/yolov5-rt-stack/tree/main/deployment/tensorrt-yolov6) from [Wei Zeng](https://github.com/Wulingtian)
  * [YOLOv6 web demo](https://huggingface.co/spaces/nateraw/yolov6) on [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio). [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/nateraw/yolov6)
  * 教程: [如何用 YOLOv6 训练自己的数据集](https://blog.roboflow.com/how-to-train-yolov6-on-a-custom-dataset/) <a href="https://colab.research.google.com/drive/1YnbqOinBZV-c9I7fk_UL6acgnnmkXDMM"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
  * YOLOv6 在 Google Colab 上的推理 Demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahdilamb/YOLOv6/blob/main/inference.ipynb)
