@@ -154,18 +154,14 @@ Here Yolo V6 and its variations are applied to test the HIOD dataset quality.
 
 
 ```shell
-git clone https://github.com/meituan/YOLOv6
-cd YOLOv6
+git clone https://github.com/Wangmmstar/Hospital_Scene_Data.git
 pip install -r requirements.txt
 ```
 </details>
 
 
-
 <details>
-<summary> Reproduce our results on COCO</summary>
-
-Please refer to [Train COCO Dataset](./docs/Train_coco_data.md).
+<summary> Reproduce our results on HIOD</summary>
 
 </details>
 
@@ -176,25 +172,25 @@ Single GPU
 
 ```shell
 # P5 models
-python tools/train.py --batch 32 --conf configs/yolov6s_finetune.py --data data/dataset.yaml --fuse_ab --device 0
+python tools/train.py --batch 32 --conf configs/yolov6s_finetune.py --data data/hiod.yaml --fuse_ab --device 0
 # P6 models
-python tools/train.py --batch 32 --conf configs/yolov6s6_finetune.py --data data/dataset.yaml --img 1280 --device 0
+python tools/train.py --batch 32 --conf configs/yolov6s6_finetune.py --data data/hiod.yaml --img 1280 --device 0
 ```
 
 Multi GPUs (DDP mode recommended)
 
 ```shell
 # P5 models
-python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 256 --conf configs/yolov6s_finetune.py --data data/dataset.yaml --fuse_ab --device 0,1,2,3,4,5,6,7
+python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 256 --conf configs/yolov6s_finetune.py --data data/hiod.yaml --fuse_ab --device 0,1,2,3,4,5,6,7
 # P6 models
-python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128 --conf configs/yolov6s6_finetune.py --data data/dataset.yaml --img 1280 --device 0,1,2,3,4,5,6,7
+python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128 --conf configs/yolov6s6_finetune.py --data data/hiod.yaml --img 1280 --device 0,1,2,3,4,5,6,7
 ```
 - fuse_ab: add anchor-based auxiliary branch and use Anchor Aided Training Mode (Not supported on P6 models currently)
 - conf: select config file to specify network/optimizer/hyperparameters. We recommend to apply yolov6n/s/m/l_finetune.py when training on your custom dataset.
-- data: prepare dataset and specify dataset paths in data.yaml ( [COCO](http://cocodataset.org), [YOLO format coco labels](https://github.com/meituan/YOLOv6/releases/download/0.1.0/coco2017labels.zip) )
+- data: prepare dataset and specify dataset paths in hiod.yaml 
 - make sure your dataset structure as follows:
 ```
-├── coco
+├── hiod
 │   ├── annotations
 │   │   ├── instances_train2017.json
 │   │   └── instances_val2017.json
@@ -237,13 +233,13 @@ This will resume from the specific checkpoint you provide.
 <details open>
 <summary> Evaluation</summary>
 
-Reproduce mAP on COCO val2017 dataset with 640×640 or 1280x1280 resolution
+Reproduce mAP on HIOD val2017 dataset with 640×640 or 1280x1280 resolution
 
 ```shell
 # P5 models
-python tools/eval.py --data data/coco.yaml --batch 32 --weights yolov6s.pt --task val --reproduce_640_eval
+python tools/eval.py --data data/hiod.yaml --batch 32 --weights yolov6s.pt --task val --reproduce_640_eval
 # P6 models
-python tools/eval.py --data data/coco.yaml --batch 32 --weights yolov6s6.pt --task val --reproduce_640_eval --img 1280
+python tools/eval.py --data data/hiod.yaml --batch 32 --weights yolov6s6.pt --task val --reproduce_640_eval --img 1280
 ```
 - verbose: set True to print mAP of each classes.
 - do_coco_metric: set True / False to enable / disable pycocotools evaluation method.
@@ -274,44 +270,6 @@ python tools/infer.py --weights yolov6s6.pt --img 1280 1280 --webcam --webcam-ad
 ```
 `webcam-addr` can be local camera number id or rtsp address.
 </details>
-
-<details>
-<summary> Deployment</summary>
-
-*  [ONNX](./deploy/ONNX)
-*  [OpenCV Python/C++](./deploy/ONNX/OpenCV)
-*  [OpenVINO](./deploy/OpenVINO)
-*  [TensorRT](./deploy/TensorRT)
-*  [NCNN](./deploy/NCNN)
-*  [Android](./deploy/NCNN/Android)
-</details>
-
-<details open>
-<summary> Tutorials</summary>
-
-*  [User Guide(zh_CN)](https://yolov6-docs.readthedocs.io/zh_CN/latest/)
-*  [Train COCO Dataset](./docs/Train_coco_data.md)
-*  [Train custom data](./docs/Train_custom_data.md)
-*  [Test speed](./docs/Test_speed.md)
-*  [Tutorial of Quantization for YOLOv6](./docs/Tutorial%20of%20Quantization.md)
-</details>
-
-<details>
-<summary> Third-party resources</summary>
-
- * YOLOv6 Training with Amazon Sagemaker: [yolov6-sagemaker](https://github.com/ashwincc/yolov6-sagemaker) from [ashwincc](https://github.com/ashwincc)  
-
- * YOLOv6 NCNN Android app demo: [ncnn-android-yolov6](https://github.com/FeiGeChuanShu/ncnn-android-yolov6) from [FeiGeChuanShu](https://github.com/FeiGeChuanShu)
-
- * YOLOv6 ONNXRuntime/MNN/TNN C++: [YOLOv6-ORT](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/ort/cv/yolov6.cpp), [YOLOv6-MNN](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/mnn/cv/mnn_yolov6.cpp) and [YOLOv6-TNN](https://github.com/DefTruth/lite.ai.toolkit/blob/main/lite/tnn/cv/tnn_yolov6.cpp) from [DefTruth](https://github.com/DefTruth)
-
- * YOLOv6 TensorRT Python: [yolov6-tensorrt-python](https://github.com/Linaom1214/TensorRT-For-YOLO-Series) from [Linaom1214](https://github.com/Linaom1214)
-
- * YOLOv6 TensorRT Windows C++: [yolort](https://github.com/zhiqwang/yolov5-rt-stack/tree/main/deployment/tensorrt-yolov6) from [Wei Zeng](https://github.com/Wulingtian)
-
- * [YOLOv6 web demo](https://huggingface.co/spaces/nateraw/yolov6) on [Huggingface Spaces](https://huggingface.co/spaces) with [Gradio](https://github.com/gradio-app/gradio). [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/nateraw/yolov6)
-
- * [Interactive demo](https://yolov6.dagshubusercontent.com/) on [DagsHub](https://dagshub.com) with [Streamlit](https://github.com/streamlit/streamlit)
 
  * Tutorial: [How to train YOLOv6 on a custom dataset](https://blog.roboflow.com/how-to-train-yolov6-on-a-custom-dataset/) <a href="https://colab.research.google.com/drive/1YnbqOinBZV-c9I7fk_UL6acgnnmkXDMM"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
