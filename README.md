@@ -227,7 +227,7 @@ This will resume from the specific checkpoint you provide.
 <details open>
 <summary> Evaluation</summary>
 
-Reproduce mAP on HIOD val2017 dataset with 640×640 or 1280x1280 resolution
+Reproduce mAP on HIOD dataset with 640×640 or 1280x1280 resolution
 
 ```shell
 # P5 models
