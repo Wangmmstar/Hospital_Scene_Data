@@ -136,18 +136,6 @@ Some examples of detection results by YOLOv6-L network.
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/yoloV6L_results.jpg?raw=true)
 
-# Code Testing the Dataset
-Here Yolo V6 and its variations are applied to test the HIOD dataset quality.
- 
- <br>
-
- <div>
-    </a>
-    <a href="https://colab.research.google.com/github/meituan/YOLOv6/blob/main/turtorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-     <a href="https://www.kaggle.com/code/housanduo/yolov6"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
-  </div>
- <br>
-
 ## Quick Start
 <details>
 <summary> Install</summary>
