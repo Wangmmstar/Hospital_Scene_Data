@@ -172,18 +172,13 @@ python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128
 - data: prepare dataset and specify dataset paths in hiod.yaml 
 - make sure your dataset structure as follows:
 ```
-├── hiod
-│   ├── annotations
-│   │   ├── instances_train2017.json
-│   │   └── instances_val2017.json
+├── dataset
 │   ├── images
-│   │   ├── train2017
-│   │   └── val2017
+│   │   ├── train
+│   │   └── val
 │   ├── labels
-│   │   ├── train2017
-│   │   ├── val2017
-│   ├── LICENSE
-│   ├── README.txt
+│   │   ├── train
+│   │   ├── val
 ```
 
 YOLOv6 supports different input resolution modes. For details, see [How to Set the Input Size](./docs/About_training_size.md).
