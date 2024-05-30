@@ -1,21 +1,9 @@
-# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
-# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
-# Example usage: python train.py --data coco128.yaml
-# parent
-# ├── yolov5
-# └── datasets
-#     └── coco128  ← downloads here
-
-
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-#path: dataset/hiod_v3 # dataset root dir
-train: dataset/hiod_v3/images/train  # train images (relative to 'path') 128 images
-val: dataset/hiod_v3/images/val  # val images (relative to 'path') 128 images
-anno_path: coco/annotations/validation.json
-
+#path: dataset/hiod # dataset root dir
+train: dataset/hiod/images/train  # train images (relative to 'path') 128 images
+val: dataset/hiod/images/val  # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
-is_coco: True
 # Classes
 nc: 56
 names: ['door_handle', 'chair', 'exam_table', 'countertop', 'waste_bin', 'utility_cart', 'computer', 'keyboard', 'mouse', 'telephone', 'handle', 'TV', 'table', 'surgical_light', 'bedside_monitor', 'dispenser', 'faucet', 'hospital_bed', 'medical_drawer', 'bedrail', 'foot_board', 'sofa', 'overbed_table', 'sink', 'breathing_tube', 'curtain', 'bedside_table', 'electrosurgical_unit', 'staff', 'operating_bed', 'patient', 'ventilator', 'iv_pole', 'infusion_pump', 'surgical_instrument', 'visitor', 'toilet', 'sequential_compression', 'syringe_pump', 'toilet_handle', 'hallway_assist_bar', 'xray_machine', 'xray_bed', 'light_switch', 'restroom_assist_bar', 'panda_baby_warmer', 'press_to_open', 'push_latch', 'elevator_panel', 'drawer', 'counter', 'cabinet', 'medical_waste_container', 'person', 'wheel_chair', 'incubator']
