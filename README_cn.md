@@ -160,16 +160,13 @@ python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128
 - data: 数据集配置文件 hiod.yaml
 - 确保您的数据集按照下面这种格式来组织；
 ```
-├── hiod
-│   ├── annotations
-│   │   ├── instances_train2017.json
-│   │   └── instances_val2017.json
+├── dataset
 │   ├── images
-│   │   ├── train2017
-│   │   └── val2017
+│   │   ├── train
+│   │   └── val
 │   ├── labels
-│   │   ├── train2017
-│   │   ├── val2017
+│   │   ├── train
+│   │   ├── val
 ```
 
 YOLOv6 支持不同的输入分辨率模式，详情请参见 [如何设置输入大小](./docs/About_training_size_cn.md).
