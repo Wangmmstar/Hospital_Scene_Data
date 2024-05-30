@@ -173,12 +173,13 @@ python -m torch.distributed.launch --nproc_per_node 8 tools/train.py --batch 128
 - make sure your dataset structure as follows:
 ```
 ├── dataset
-│   ├── images
-│   │   ├── train
-│   │   └── val
-│   ├── labels
-│   │   ├── train
-│   │   ├── val
+│   ├── hiod
+│      ├── images
+│      │   ├── train
+│      │   └── val
+│      ├── labels
+│      │   ├── train
+│      │   ├── val
 ```
 
 YOLOv6 supports different input resolution modes. For details, see [How to Set the Input Size](./docs/About_training_size.md).
