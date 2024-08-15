@@ -30,7 +30,7 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 # Usage
 
 Anyone who wants to access the data folder could redirect to https://docs.google.com/forms/d/e/1FAIpQLSfI3UKkkIjvH1RGrN4BbCXCHLyRrtKt-jkJkMduw4K7ZXDNuA/viewform?usp=sf_link
-We Do Not Accept Any Commercial Use.
+We Do Not Accept Any Commercial Use. So please leave your organizational email :).
 
 The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
 
