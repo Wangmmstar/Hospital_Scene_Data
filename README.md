@@ -12,6 +12,11 @@ the dataset and benchmark provide valuable resources for researchers and practit
 computer-vision-based applications in hospitals.
 
 For further description, please refer to this paper: [Object detection in hospital facilities: A comprehensive dataset and performance evaluation](https://www.sciencedirect.com/science/article/pii/S0952197623004074)
+
+# Citation
+
+Hu, D., Li, S., & Wang, M. (2023). Object detection in hospital facilities: A comprehensive dataset and performance evaluation. Engineering Applications of Artificial Intelligence, 123, 106223.
+
 # Data Preparation
 
 ![alt text](https://github.com/Wangmmstar/Hospital_Scene_Data/blob/main/readme/dataset_preparation.png?raw=true)
