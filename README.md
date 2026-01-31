@@ -35,9 +35,13 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 # Usage
 
 01-31-2026 UPDATE:
+
 The older Google Form is not maintained anymore. For the data request, please directly reach out to mwang5@ufl.edu
+
 In the future, the process will be streamlined.
+
 [TODO] Seek Ooline hotsing hub.
+
 We Do Not Accept Any Commercial Use. So please use your organizational email :).
 
 The image folders contain the original jpeg files. The labels folers contains xml file of the object labels. Download both and combine them in one of the labeling softwares and then ready to be used. 
