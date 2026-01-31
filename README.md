@@ -40,7 +40,7 @@ The older Google Form is not maintained anymore. For the data request, please di
 
 In the future, the process will be streamlined.
 
-[TODO] Seek Ooline hotsing hub.
+[TODO] Seek Online hosting hub.
 
 We Do Not Accept Any Commercial Use. So please use your organizational email :).
 
