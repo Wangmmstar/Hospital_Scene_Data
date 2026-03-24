@@ -36,7 +36,7 @@ indoor environments, such as “intensive care unit,” “operating room,” �
 
 01-31-2026 UPDATE:
 
-The older Google Form is not maintained anymore. For the data request, please directly reach out to mwang5@ufl.edu
+The older Google Form is not maintained anymore. For the data request, please directly reach out to mwang5@ufl.edu WITH YOUR INSTITUTIONAL EMAIL as this dataset is open to academic research only.
 
 In the future, the process will be streamlined.
 
